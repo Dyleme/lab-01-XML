@@ -384,7 +384,6 @@ public class WindowController {
 
                 NodeList parameters = student.getChildNodes();
 
-                System.out.println(parameters.item(1).getTextContent());
 
                 Node nodeNumber = parameters.item(0);
                 Node nodeName = parameters.item(1);
